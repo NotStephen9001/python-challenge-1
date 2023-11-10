@@ -130,13 +130,12 @@ while place_order:
                 
                 # 4. Check if the menu selection is in the menu items               
                 if menu_selection in menu_items.keys():
-
+                    
                     # Store the item name as a variable
                     selected_item = menu_items[menu_selection]
 
-
                     # Ask the customer for the quantity of the menu item
-                    
+                    menu_selection = input(f"\nEnter the item number from the {menu_category_name} menu: ")
 
                     # Check if the quantity is a number, default to 1 if not
 
